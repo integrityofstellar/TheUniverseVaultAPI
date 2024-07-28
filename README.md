@@ -31,6 +31,8 @@ Manual installation is also possible, for the testing purposes, but it is not re
 
 ### API Documentation 
 Coming soon...
+So far you can have `TUVINS.json` which is Insomnia v4 exported collection that I've used during development, and the Swagger docs at `/docs` endpoint.  
+Later on I will provide separate documentation about how to use this API.
 
 ### Docker Installation (Recomended)
 To install the Universe Vault API, you need to clone the repository and run the following command:
