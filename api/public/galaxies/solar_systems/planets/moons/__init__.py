@@ -1,8 +1,4 @@
-from api.models.star import Star
-from api.models.planet import Planet
 from api.models.moon import Moon
-from api.models.solar_system import SolarSystem
-from api.models.galaxy import Galaxy
 from beanie import PydanticObjectId
 from fastapi import APIRouter, HTTPException
 
