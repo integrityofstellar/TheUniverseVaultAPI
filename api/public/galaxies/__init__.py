@@ -7,7 +7,7 @@ from api.models.star import Star
 from api.models.solar_system import SolarSystem
 from api.models.galaxy import Galaxy
 from beanie import PydanticObjectId
-
+from api.public.galaxies.solar_systems import solar_systems_router
 
 galaxies_router = APIRouter(prefix="/galaxies")
 
@@ -64,3 +64,6 @@ async def get_galaxy(galaxy_id: PydanticObjectId) -> OkResponse:
     )
 
     return OkResponse(data={"galaxy": _response})
+
+
+galaxies_router.include_router(solar_systems_router)
