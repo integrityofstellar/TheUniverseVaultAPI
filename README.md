@@ -16,6 +16,9 @@ The Universe Vault API is currently under development and there is no live demo 
 - [ ] Docker Deployment
 - [ ] Live Demo
 - [ ] More features to come...
+## Codebase Note
+At the moment Python3, FastAPI and MongoDB used for this project, as it makes development fast and easy, exactly what we need for concept or you can say MVP.
+However in the future I'll rewrite everything to Rust-lang, and possibly will keep MongoDB as a database, tips and feedback is welcome!
 
 ## Getting Started
 To get started with the Universe Vault API, you need to have the following installed on your machine (Recomended way):
